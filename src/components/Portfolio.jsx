@@ -1,30 +1,36 @@
 import React from 'react'
+import html from '../../public/assets/html.png'
+import css from '../../public/assets/css.png'
+import nodejs from '../../public/assets/nodejs.jpg'
+import front from '../../public/assets/front-en.png'
+import react from '../../public/assets/react.png'
+import javascript from '../../public/assets/javascript.png'
 
 const Portfolio = () => {
     const portfolios=[
         {
             id:1,
-            src:'html.png'
+            src:html
         },
         {
             id:2,
-            src:'css.png'
+            src:css
         },
         {
             id:3,
-            src:'nodejs.jpg'
+            src:nodejs
         },
         {
             id:4,
-            src:'front-end.png'
+            src:front
         },
         {
             id:5,
-            src:'react.png'
+            src:react
         },
         {
             id:6,
-            src:'javascript.png'
+            src:javascript
         },
     ]
   return (

@@ -1,53 +1,61 @@
 import React from 'react'
+import one from "../../public/assets/experience1.jpg"
+import two from "../../public/assets/experience2.png"
+import onee from "../../public/assets/experience1.jpg"
+import four from "../../public/assets/experience4.png"
+import five from "../../public/assets/experience5.png"
+import six from "../../public/assets/experience6.jpg"
+import seven from "../../public/assets/experience7.png"
+import eight from "../../public/assets/experience8.png"
 
 const Experience = () => {
     const experience=[
         {
             id:1,
-            src:'experience1.jpg',
+            src:one,
             title:'Html',
             style:'shadow-orange-500'
             
         },
         {
             id:2,
-            src:'experience2.png',
+            src:two,
             title:'Css',
             style:'shadow-blue-500'
         },
         {
             id:3,
-            src:'experience3.png',
+            src:onee,
             title:'ReactJs',
             style:'shadow-yellow-500'
         },
         {
             id:4,
-            src:'experience4.png',
+            src:four,
             title:'NodeJs',
             style:'shadow-blue-600'
         },
         {
             id:5,
-            src:'experience5.png',
+            src:five,
             title:'NextJs',
             style:'shadow-sky-400'
         },
         {
             id:6,
-            src:'experience6.jpg',
+            src:six,
             title:'Mongodb',
             style:'shadow-gray-800'
         },
         {
             id:7,
-            src:'experience7.png',
+            src:seven,
             title:'JavaScript',
             style:'shadow-gray-800'
         },
         {
             id:8,
-            src:'experience8.png',
+            src:eight,
             title:'GitHub',
             style:'shadow-pink-400'
         },

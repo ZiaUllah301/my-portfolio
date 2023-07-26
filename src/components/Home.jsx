@@ -1,5 +1,5 @@
 import React from 'react'
-// import  second from "../assets/portfolio/zia.JPG";
+import  second from "../../public/assets/zia.jpg"
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 import { Link } from 'react-scroll';
 
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
         <div>
           <img className=' w-2/3 rounded-2xl mx-auto max-w-3xl' 
-          src='zia.JPG' alt='My Profile'
+          src={second} alt='My Profile'
            ></img>
         </div>
       </div>
